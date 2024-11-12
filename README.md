@@ -5,10 +5,8 @@ Algo about self-supervised learning for MI
 
 而EEGNET先SL再接SSL的方法在跨被试场景下会有明显更好的性能，可以与EA结合，但是在被试内场景下性能不够稳定。总结如下：CSP结合EEGNet效果更好，跨被试场景下EEGNET先SL再接SSL性能提升非常明显。
 
-1.最基础的版本：被试内场景下的matlab代码的SWPC框架,请运行 asynchronous_fix_window_within.m  数据集放在 百度网盘： 链接：https://pan.baidu.com/s/14-f08DyaTVIuOKdsEY89zw 提取码：6uem
+1.最基础的版本：被试内场景下的matlab代码的SWPC框架,请运行 fix_within_new.m  数据集放在 百度网盘： 链接：https://pan.baidu.com/s/14-f08DyaTVIuOKdsEY89zw 提取码：6uem。目前已经优化完代码。
 
-2.跨被试场景下的matlab代码的SWPC框架,请运行 asynchronous_fix_window_cross.m 目前继续整理，预计11月更新
+2.跨被试场景下的matlab代码的SWPC框架,请运行 fix_within_cross.m 其中可以通过调整 EA = true/false 来控制使用不使用EA
 
-3.跨被试场景下的matlab代码的SWPC框架（结合EA）,请运行 asynchronous_fix_window_cross_EA.m 目前继续整理，预计11月更新
-
-4.跨被试或被试内场景python代码+supervised learning + self-supervised learning 预计11月更新完毕,coming soon...
+3.跨被试或被试内场景python代码+supervised learning + self-supervised learning 预计12月更新完毕,coming soon...
