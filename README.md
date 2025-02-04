@@ -10,6 +10,9 @@ Algo about self-supervised learning for MI
 2.跨被试场景下的matlab代码的SWPC框架,请运行 fix_within_cross.m 其中可以通过调整 EA = true/false 来控制使用不使用EA
 
 3.跨被试或被试内场景python代码+supervised learning + self-supervised learning
+
 loss.py 自监督学习涉及的LOSS函数
+
 pre_train_cross_subject.py 预训练深度学习模型的代码
+
 self_supervised_cross_subject.py 自监督学习需要用的代码
